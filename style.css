@@ -1,6 +1,9 @@
 .background {
+  font-family: 'Poppins', sans-serif;
 
 }
+
+/*START GRID ITEM PROFIL */
 
 .grid-container {
   margin: 30px;
@@ -10,8 +13,63 @@
   justify-content: center;
 }
 
+.education {
+  margin-bottom: 64px;
+}
+
 .grid-item-profil {
   background-color: #015668;
   color: white;
   text-align: center;
+}
+
+.contact {
+  margin-top: 64px;
+}
+
+.my-pic {
+  margin-top: 16px;
+  border-radius: 80px;
+  height: 140px;
+  width: 140px;
+}
+
+.grid-container-skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 8px;
+}
+
+.bar-grid-item-profil {
+  display: block;
+  height: 2px;
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+/*START GRID ITEM EXPERIENCES*/
+.grid-item-experiences {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.background-description {
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.bar-grid-item-experiences {
+  display: block;
+  height: 2px;
+  width: 50%;
+  background-color: #015668;
+}
+
+.achievements {
+  margin-top: 40px;
+}
+
+.hobbies {
+  margin-top: 40px;
 }
