@@ -1,0 +1,17 @@
+.background {
+
+}
+
+.grid-container {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-column-gap: 16px;
+  justify-content: center;
+}
+
+.grid-item-profil {
+  background-color: #015668;
+  color: white;
+  text-align: center;
+}
