@@ -5,12 +5,12 @@ const collapseBox = (anchor, box) => {
     event.preventDefault();
     // event.currentTarget.innerHTML = '';
     if (openBox) {
-      event.currentTarget.innerHTML = '<i class="fas fa-chevron-right"></i>';
+      event.currentTarget.innerHTML = '<h4> CAREER BACKGROUND </h4>';
       box.style.display = "none";
       openBox = false;
       // console.log('click false');
     } else {
-      event.currentTarget.innerHTML = '<i class="fas fa-chevron-down"></i>';
+      event.currentTarget.innerHTML = '<h4>CAREER BACKGROUND</h4>';
       box.style.display = "block";
       openBox = true;
       // console.log('click true');

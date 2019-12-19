@@ -16,6 +16,10 @@ a:hover {
   color: #015668;
 }
 
+i {
+  font-family: 'Poppins', sans-serif;
+}
+
 .background {
   font-family: 'Poppins', sans-serif;
 
@@ -28,6 +32,8 @@ a:hover {
   grid-template-columns: 40% 60%;
   grid-column-gap: 16px;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 
 .my-description {
@@ -100,6 +106,7 @@ a:hover {
   margin-left: 24px;
   margin-right: 80px;
   margin-top: 24px;
+  position: relative;
 }
 
 .background-description {
