@@ -3,9 +3,15 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Full stack developer">
+  <meta name="keywords" content="chloe, saurat">
+  <meta name="author" content="Chloe Saurat">
   <title>Chloe Saurat Resume</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -20,39 +26,16 @@
         <!-- START MY DESCRIPTION -->
         <div class="my-description">
           <h2>Chloe Saurat</h2>
-          <h4>Junior Deloper</h4>
-          <h4>Full Stack/ Front End</h4>
+          <h5>Junior Developer</h5>
+          <h5>Full Stack/ Front End</h5>
         </div>
         <div class="bar-grid-item-profil">
         </div>
         <!-- END MY DESCRIPTION -->
 
-        <!-- START EDUCATION -->
-        <div class="education">
-          <h4>EDUCATION</h4>
-          <!-- START EDUCATION-LEWAGON -->
-          <div class="education-leWagon">
-            <p>Le Wagon: Montreal</p>
-            <p>Full Stack Coding</p>
-            <p>Bootcamp 2019</p>
-          </div>
-          <!-- END EDUCATION-LEWAGON -->
-          <!-- START EDUCATION-TBS -->
-          <div class="education-TBS">
-            <p>Toulouse Business School</p>
-            <p>Project Management and Marketing Master Degree</p>
-          </div>
-          <!-- END EDUCATION-TBS -->
-          <!-- START EDUCATION-BARCELONA -->
-          <div class="education-Barcelona">
-            <p>ESEC Barcelona</p>
-            <p>International Business Master Degree</p>
-          </div>
-          <!-- END EDUCATION-BARCELONA -->
-        </div>
-        <!-- END EDUCATION -->
+
         <!-- START SKILLS -->
-        <div>
+        <div class="mt-3">
           <!-- START GRID CONTAINER SKILLS -->
           <h4>SKILLS</h4>
           <div class="grid-container-skills">
@@ -80,13 +63,52 @@
         </div>
         <!-- END SKILLS -->
 
+      <!-- START HOBBIES -->
+       <!-- Button trigger modal -->
+        <button type="button" class="btn mt-5" data-toggle="modal" data-target="#exampleModal">
+          HOBBIES
+        </button>
+         <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">My hobbies: </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <li> Cooking </li>
+                <li> Social Media </li>
+                <li> Travelling </li>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END HOBBIES -->
+
         <!-- START CONTACT -->
         <div class="contact">
           <h4>CONTACT</h4>
-          <p> 514 601 8829 </p>
-          <p> sauratchloe@gmail.com </p>
-          <p> Linkedin: @chloesaurat </p>
-          <p> Github: @ChloeSaurat </p>
+          <div class="mt-2">
+            <p> <i class="fas fa-mobile-alt pr-2"></i> 514 601 8829 </p>
+          </div>
+          <div class="mt-2">
+            <td class="pl-1 mt-4 text-center"><i class="far fa-envelope pr-2"></i></td>
+            <td><a href="mailto:sauratchloe@gmail.com" class="text-light text-decoration-none">sauratchloe@gmail.com</a></td>
+          </div>
+          <div class="mt-2">
+            <td class="pl-1 mt-4 text-center"><i class="fab fa-linkedin pr-2"></i></td>
+            <td><a href="https://www.linkedin.com/in/chloesaurat" class="text-light text-decoration-none"> @chloesaurat</a></td>
+          </div>
+          <div class="mt-2">
+            <td class="pl-1 mt-4 text-center"><i class="fab fa-github pr-2"></i></td>
+            <td><a href="https://github.com/ChloeSaurat/" class="text-light text-decoration-none"> @ChloeSaurat</a></td>
+          </div>
         </div>
         <!-- END CONTACT -->
 
@@ -100,57 +122,95 @@
           I am organized, bilingual, result-oriented and eager for new professional challenges. </p>
         </div>
 
-        <!-- START CAREER BACKGROUND CONTAINER -->
-        <div class="career-background-container" href="#collapseExperience" id="experience">
-          <h4>CAREER BACKGROUND</h4>
+        <!-- START EDUCATION -->
+        <div class="education">
+          <h4>EDUCATION</h4>
+          <!-- START EDUCATION-LEWAGON -->
           <div class="bar-grid-item-experiences">
           </div>
-          <div class="Agnus-Dei">
-            <h4>PROJECT MANAGER - ENVENT PLANNING </h4>
-            <h4>Agnus Dei Caterer, Montreal | 2017-present</h4>
+          <div class="education-leWagon mt-3">
+            <a class="font-weight-bold" href="https://www.lewagon.com/fr">Le Wagon: Montreal</a>
+            <p>Full Stack Coding</p>
+            <p>Bootcamp 2019</p>
+          </div>
+          <!-- END EDUCATION-LEWAGON -->
+          <!-- START EDUCATION-TBS -->
+          <div class="education-TBS mt-3">
+            <a class="font-weight-bold" href="https://www.tbs-education.fr/">Toulouse Business School</a>
+            <p>Project Management and Marketing Master Degree</p>
+          </div>
+          <!-- END EDUCATION-TBS -->
+          <!-- START EDUCATION-BARCELONA -->
+          <div class="education-Barcelona mt-3">
+            <p class="font-weight-bold">ESEC Barcelona</p>
+            <p>International Business Master Degree</p>
+          </div>
+          <!-- END EDUCATION-BARCELONA -->
+          <div class="education-Law mt-3">
+            <p class="font-weight-bold">UT1 Capitole Toulouse</p>
+            <p>Bachelor in Law</p>
+          </div>
+        </div>
+        <!-- END EDUCATION -->
 
-              <li>Manage a client portfolio</li>
-              <li>Define project and budget timelines</li>
-              <li>Write relevant business proposals</li>
-              <li>Propose ideas with creative added-value</li>
-              <li>Manage customer relations</li>
-              <li>Monitor results</li>
-              <li>Ensure links with the parties involved (logistics, kitchen, delivers</li>
-              <li>Manage a team during events (between 5 to 50 people)</li>
-
+        <!-- START CAREER BACKGROUND CONTAINER -->
+        <div class="career-background-container mt-3">
+          <div class="pb-2">
+            <a class="h4 text-decoration-none" href="#collapseExperience"> CAREER BACKGROUND </a>
+          </div>
+          <div class="bar-grid-item-experiences">
           </div>
 
-          <div class="Maman-Bakery">
-            <h4>EVENT DIRECTOR</h4>
-            <h4> Maman Bakery, New York City | 2016-2017 </h4>
+          <!-- START collapseExperience -->
+          <div id="collapseExperience">
 
-              <li>Manage customer relations, define projects and budgets frames</li>
-              <li>Follow-Up on results and propose strategies to increase the turnover accordingly</li>
-              <li>Manage logistics during the event</li>
-              <li>Manage a team of trainees, servers and cooks</li>
+            <div class="Agnus-Dei mt-3">
+              <h5>PROJECT MANAGER - ENVENT PLANNING </h5>
+              <h6 class="font-weight-bold">Agnus Dei Caterer, Montreal | 2017-present</h6>
 
+                <li>Manage a client portfolio</li>
+                <li>Define project and budget timelines</li>
+                <li>Write relevant business proposals</li>
+                <li>Propose ideas with creative added-value</li>
+                <li>Manage customer relations</li>
+                <li>Monitor results</li>
+                <li>Ensure links with the parties involved (logistics, kitchen, delivers</li>
+                <li>Manage a team during events (between 5 to 50 people)</li>
+
+            </div>
+
+            <div class="Maman-Bakery mt-3">
+              <h5>EVENT DIRECTOR</h5>
+              <h6 class="font-weight-bold"> Maman Bakery, New York City | 2016-2017 </h6>
+
+                <li>Manage customer relations, define projects and budgets frames</li>
+                <li>Follow-Up on results and propose strategies to increase the turnover accordingly</li>
+                <li>Manage logistics during the event</li>
+                <li>Manage a team of trainees, servers and cooks</li>
+
+            </div>
+
+            <div class="GRDF mt-3">
+              <h5>JUNIOR PROJECT MANAGER - EVENT/MARKETING</h5>
+              <h6 class="font-weight-bold">GRDF, Paris | 2013-2015</h6>
+              <li> Organize and manage two seminars (80 people each)</li>
+              <li>  Implement an iPad mapping tool referencing the various uses of gas </li>
+              <li> Develop marketing brochures and communication tools </li>
+              <li> Implement marketing and technical content on the GrDF intranet </li>
+              <li> Update monitoring dashboards and control tools, report on data </li>
+            </div>
+
+            <div class="Allianz mt-3">
+              <h5>PROJECT MANAGER ASSISTANT</h5>
+              <h6 class="font-weight-bold">Allianz, Paris | 2013 - 6 months</h6>
+            </div>
+
+             <div class="Figaro mt-3">
+              <h5>ASSISTANT OF THE HEAD OF ADVERTISING</h5>
+              <h6 class="font-weight-bold">Figaro Media, Paris | 2012 - 6 months</h6>
+            </div>
           </div>
-
-          <div class="GRDF">
-            <h4>JUNIOR PROJECT MANAGER - EVENT/MARKETING</h4>
-            <h4>GRDF, Paris | 2013-2015</h4>
-            <li> Organize and manage two seminars (80 people each)</li>
-            <li>  Implement an iPad mapping tool referencing the various uses of gas </li>
-            <li> Develop marketing brochures and communication tools </li>
-            <li> Implement marketing and technical content on the GrDF intranet </li>
-            <li> Update monitoring dashboards and control tools, report on data </li>
-          </div>
-
-          <div class="Allianz">
-            <h4>PROJECT MANAGER ASSISTANT</h4>
-            <h4>Allianz, Paris | 2013 - 6 months</h4>
-          </div>
-
-           <div class="Figaro">
-            <h4>ASSISTANT OF THE HEAD OF ADVERTISING</h4>
-            <h4>Figaro Media, Paris | 2012 - 6 months</h4>
-          </div>
-
+          <!-- END collapseExperience -->
         </div>
         <!-- END CAREER BACKGROUND CONTAINER -->
 
@@ -159,30 +219,23 @@
           <h4>NOTABLE ACHIEVEMENTS</h4>
           <div class="bar-grid-item-experiences">
           </div>
-          <div class="SKI IN">
-            <h4>SKI IN - 2019</h4>
+          <div class="SKI IN mt-3">
+            <h5 class="font-weight-bold"> <a class="text-decoration-none" href="http://skiin.herokuapp.com/">  SKI IN - 2019 </a></h5>
             <p>An App which connects people who want to find someone to ski with.</p>
             <p>Skills: HTML, CSS, Bootstraop, Ruby on Rails, JAVASCRIPT, jQuery, Figma, Heroku</p>
           </div>
 
-           <div class="NEIGHBORFOOD">
-            <h4>NEIGHBORFOOD - 2019</h4>
-            <p>An App which connects people who cook or want to buy meals for/from ther neighborhood.</p>
+           <div class="NEIGHBORFOOD mt-3 mb-3">
+            <h5 class="font-weight-bold"> <a class="text-decoration-none" href=""> NEIGHBORFOOD - 2019 </a></h5>
+            <p>An App which connects people who cook or want to buy meals for/from their neighborhood.</p>
             <p>Skills: HTML, CSS, Bootstraop, Ruby on Rails, JAVASCRIPT, jQuery, Figma, Heroku</p>
           </div>
         </div>
         <!-- END ACHIEVEMENTS -->
 
-        <!-- START HOBBIES -->
-        <div class="hobbies">
-          <h4>HOBBIES</h4>
-          <div class="bar-grid-item-experiences">
-          </div>
-          <p>Cooking</p>
-          <p>Social Media</p>
-          <p>Travelling</p>
-        </div>
-        <!-- END HOBBIES -->
+
+
+
 
       </div>
       <!-- END GRID ITEM EXPERIENCES -->
@@ -192,6 +245,11 @@
 
   </div>
   <!-- END BACKGROUND -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
+</html>
 
 </html>

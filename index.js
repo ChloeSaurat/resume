@@ -21,3 +21,4 @@ const collapseBox = (anchor, box) => {
 const experienceAnchor = document.querySelector('a[href="#collapseExperience"]');
 const experienceBox = document.querySelector("#collapseExperience");
 collapseBox(experienceAnchor, experienceBox);
+
